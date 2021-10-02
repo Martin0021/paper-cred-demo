@@ -2,6 +2,7 @@
 var UIUtils = {
   drawVerifiedSymbol: function (element, result) {
     if (result) {
+        return;
         const imgDim= {width:e(element).width/5,height:e(element).width/5}; //logo dimention
         var context = e(element).getContext('2d');
         var imageObj = new Image();  
